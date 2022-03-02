@@ -165,6 +165,24 @@ $n= new person();
 $n->ponef ();
 $n->ptwof();
 
+trait Hello {
+    public function sayHello() {
+        echo 'Hello ';
+    }
+}
+
+trait World {
+    public function sayWorld() {
+        echo 'World';
+    }
+}
+
+class MyHelloWorld {
+    use Hello, World;
+    public function sayExclamationMark() {
+        echo '!';
+    }
+}
 //////////////////////
 // oop mysql
 // $con = new mysqli("localhost","root","","api");
