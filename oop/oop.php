@@ -183,6 +183,42 @@ class MyHelloWorld {
         echo '!';
     }
 }
+
+
+class Wke {
+
+    public $type;
+    public $errno;
+    public $msg;
+    public $page;
+
+    public $template = $this;
+
+    public function notify(){
+        return $this;
+    }
+
+    public function errorno($error){
+        $this->errno = $error;
+        return $this; // returning same object so you can call the another function in sequence by just ->
+    }
+    public function type($type){
+        $this->type = $type;
+        return $this;
+    }
+    public function msg($msg){
+        $this->msg = $msg;
+        return $this;
+    }
+    public function page($page){
+        $this->page = $page;
+        return $this;
+    }
+}
+$Wke= new Wke();
+
+$Wke->errorno()->msg()
+
 //////////////////////
 // oop mysql
 // $con = new mysqli("localhost","root","","api");
