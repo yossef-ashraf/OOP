@@ -1,22 +1,22 @@
 # oop 
 PHP Constructor<br>
-PHP Destructor
-PHP Access Modifiers
-PHP Inheritance
-PHP Constants
-PHP Abstract Classes
-PHP Interfaces
-PHP Traits
-PHP Static Methods
-PHP Static Properties
-PHP Namespaces
+PHP Destructor<br>
+PHP Access Modifiers<br>
+PHP Inheritance<br>
+PHP Constants<br>
+PHP Abstract Classes<br>
+PHP Interfaces<br>
+PHP Traits<br>
+PHP Static Methods<br>
+PHP Static Properties<br>
+PHP Namespaces<br>
 
 
 
 
 # SOLID
- Single responsibility principle
- Open/closed principle
- Liskov substitution principle
- Interface segregation principle
- Dependency inversion principle 
+ Single responsibility principle<br>
+ Open/closed principle<br>
+ Liskov substitution principle<br>
+ Interface segregation principle<br>
+ Dependency inversion principle <br>
